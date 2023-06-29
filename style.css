@@ -1,0 +1,67 @@
+body{
+    display:flex;
+    background-color:skyblue;
+    background-image: url("https://img.freepik.com/free-photo/jungle-background-forest-nature-scene-futuristic-generative-ai_191095-515.jpg?t=st=1688005321~exp=1688005921~hmac=ec6d757a90e7321718435755baa551725e7a56bcdfe5c2436533fcb8e02b0369&w=1380");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    justify-content:center;
+    align-items:center;
+    margin:50px;
+    width:90vw;
+    height:82vh;
+    border:5px black solid;
+    padding: 25px;
+
+}
+.login-card{
+    display:flex;
+    background-color:limegreen;
+    opacity:90%;
+    width:650px;
+    height:450px;
+    box-shadow:9px 5px rgb(75, 60, 60);
+    border: 5px;
+    border-radius:25px;
+    align-items:center;
+    flex-direction:column;
+}
+.box{
+    border:3px maroon solid;
+    border-radius:10px;
+    height:17px;
+}
+.login-card h1{
+    margin:10px;
+    font-size:4rem;
+    font-family: cursive;
+}
+.login-card h2{
+    margin:7.5px;
+    font-size:2rem;
+    font-family:cursive;
+}
+.button{
+    background-color:orange;
+    border: 2px maroon solid;
+    margin:20px;
+    opacity:90%;
+    border-radius:35px;
+    height:65px;
+    width:150px;
+    font-size:2rem;
+    font-family: cursive;
+}
+.button:hover{
+    cursor:pointer;
+    background-color:orangered;
+}
+.login-card a{
+    margin: 10px;
+    font-size:15px;
+}
+.login-card a:hover{
+
+}

@@ -20,7 +20,8 @@ body{
     opacity:80%;
     width:450px;
     height:45%;
-    box-shadow:14px 10px darkgreen;
+    box-shadow:14px 10px 15px darkgreen;
+    box-shadow-spe
     border: 5px;
     border-radius:25px;
     align-items:center;

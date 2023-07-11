@@ -60,8 +60,9 @@ body{
 }
 .login-card a{
     margin: 10px;
-    font-size:15px;
+    font-size:1.2rem;
 }
 .login-card a:hover{
-
+    font-size: 1.3rem;
+    color:blueviolet;   
 }

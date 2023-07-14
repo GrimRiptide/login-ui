@@ -1,7 +1,7 @@
 body{
     display:flex;
     background-color:skyblue;
-    background-image: url("https://img.freepik.com/free-photo/jungle-background-forest-nature-scene-futuristic-generative-ai_191095-515.jpg?t=st=1688005321~exp=1688005921~hmac=ec6d757a90e7321718435755baa551725e7a56bcdfe5c2436533fcb8e02b0369&w=1380");
+    background-image: url("jungle-background.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,27 +11,24 @@ body{
     width:95vw;
     align-items:center;
     justify-content:center;
-
-
+    overflow:hidden;
 }
 .login-card{
     display:flex;
     background-color:limegreen;
     opacity:80%;
-    width:450px;
-    height:45%;
     box-shadow:14px 10px 15px darkgreen;
-    box-shadow-spe
     border: 5px;
     border-radius:25px;
     align-items:center;
     flex-direction:column;
-    overflow: auto;
+    min-height: 450px;
+    min-width: 450px;
 }
 .box{
     border:3px maroon solid;
     border-radius:15px;
-    height:40px;
+    height:25px;
 }
 .login-card h1{
     margin:10px;
@@ -49,7 +46,7 @@ body{
     margin:20px;
     opacity:90%;
     border-radius:35px;
-    height:75px;
+    height:55px;
     width:200px;
     font-size:2rem;
     font-family: cursive;

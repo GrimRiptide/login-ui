@@ -19,16 +19,11 @@ body{
     opacity:80%;
     box-shadow:14px 10px 15px darkgreen;
     border: 5px;
-    border-radius:25px;
+    border-radius:35px;
     align-items:center;
     flex-direction:column;
     min-height: 450px;
-    min-width: 450px;
-}
-.box{
-    border:3px maroon solid;
-    border-radius:15px;
-    height:25px;
+    min-width: 370px;
 }
 .login-card h1{
     margin:10px;
@@ -39,6 +34,20 @@ body{
     margin:7.5px;
     font-size:2rem;
     font-family:cursive;
+}
+.login-card a{
+    margin: 10px;
+    font-size:1.2rem;
+}
+.login-card a:hover{
+    font-size: 1.3rem;
+    color:blueviolet;   
+}
+.box{
+    border:3px maroon solid;
+    border-radius:15px;
+    height:25px;
+    text-align:center;
 }
 .button{
     background-color:orange;
@@ -54,12 +63,4 @@ body{
 .button:hover{
     cursor:pointer;
     background-color:orangered;
-}
-.login-card a{
-    margin: 10px;
-    font-size:1.2rem;
-}
-.login-card a:hover{
-    font-size: 1.3rem;
-    color:blueviolet;   
 }
